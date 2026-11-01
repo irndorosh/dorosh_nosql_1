@@ -304,7 +304,7 @@ db.tracks
     _id: 0, track_name: 1, artists: 1, track_genre: 1, popularity: 1, duration_sec: 1,
     "audio_features.danceability": 1, "audio_features.energy": 1
   })
-  .sort({ popularity: -1 })
+  .sort({ popularity: -1, track_name: 1, track_genre: 1 })
   .limit(10);
 ```
 
@@ -317,6 +317,8 @@ db.tracks
   (180 000 мс = 3 хв, 300 000 мс = 5 хв). Дві умови на одне поле в одному об'єкті — це діапазон.
 - Проєкція залишає лише поля, корисні для перевірки результату; сортування за популярністю й `limit(10)` —
   щоб показати найпопулярніші треки, а загальна кількість рахується `countDocuments` з тим самим фільтром.
+- Додаткові ключі сортування `track_name`, `track_genre` роблять порядок детермінованим: багато треків мають
+  однакову популярність, і без них порядок таких треків (а отже, і склад топ-10) змінювався б між запусками.
 
 **Результат:** 7 311 документів (5 328 унікальних треків). Найпопулярніші:
 
@@ -513,7 +515,7 @@ db.tracks
     _id: 0, track_name: 1, artists: 1, track_genre: 1, popularity: 1, explicit: 1,
     "audio_features.loudness": 1, "audio_features.speechiness": 1, "audio_features.instrumentalness": 1
   })
-  .sort({ popularity: -1 })
+  .sort({ popularity: -1, track_name: 1, track_genre: 1 })
   .limit(10);
 ```
 

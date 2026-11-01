@@ -1,3 +1,4 @@
+
 Завдання 1. Треки для вечірки
 Знайдено треків: 7311
 Топ-10 за популярністю:
@@ -49,7 +50,7 @@
   {
     track_name: 'Party',
     popularity: 90,
-    track_genre: 'reggaeton',
+    track_genre: 'latino',
     artists: [
       'Bad Bunny',
       'Rauw Alejandro'
@@ -77,7 +78,7 @@
   {
     track_name: 'Party',
     popularity: 90,
-    track_genre: 'latino',
+    track_genre: 'reggaeton',
     artists: [
       'Bad Bunny',
       'Rauw Alejandro'
@@ -87,20 +88,6 @@
       energy: 0.799
     },
     duration_sec: 227.6
-  },
-  {
-    track_name: 'One Kiss (with Dua Lipa)',
-    popularity: 89,
-    track_genre: 'house',
-    artists: [
-      'Calvin Harris',
-      'Dua Lipa'
-    ],
-    audio_features: {
-      danceability: 0.791,
-      energy: 0.862
-    },
-    duration_sec: 214.8
   },
   {
     track_name: 'About Damn Time',
@@ -114,6 +101,20 @@
       energy: 0.743
     },
     duration_sec: 191.8
+  },
+  {
+    track_name: 'LA INOCENTE',
+    popularity: 89,
+    track_genre: 'latino',
+    artists: [
+      'Mora',
+      'Feid'
+    ],
+    audio_features: {
+      danceability: 0.757,
+      energy: 0.789
+    },
+    duration_sec: 202.2
   },
   {
     track_name: 'One Kiss (with Dua Lipa)',
@@ -132,7 +133,7 @@
   {
     track_name: 'One Kiss (with Dua Lipa)',
     popularity: 89,
-    track_genre: 'pop',
+    track_genre: 'electro',
     artists: [
       'Calvin Harris',
       'Dua Lipa'
@@ -280,7 +281,7 @@
     outlier_threshold: 178.5,
     outlier_tracks: [
       {
-        _id: ObjectId('6ae75099133b1a6ea2562c5b'),
+        _id: ObjectId('6ae75793133b1a6ea257eaeb'),
         track_name: 'Fast Car',
         popularity: 61,
         artists: [
@@ -292,7 +293,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea2562ce2'),
+        _id: ObjectId('6ae75793133b1a6ea257eb72'),
         track_name: 'Running Up That Hill (A Deal With God) - Acoustic',
         popularity: 51,
         artists: [
@@ -303,7 +304,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea2562d0c'),
+        _id: ObjectId('6ae75793133b1a6ea257eb9c'),
         track_name: 'Wanted Man',
         popularity: 59,
         artists: [
@@ -321,7 +322,7 @@
     outlier_threshold: 171.8,
     outlier_tracks: [
       {
-        _id: ObjectId('6ae75099133b1a6ea2562f53'),
+        _id: ObjectId('6ae75793133b1a6ea257ede3'),
         track_name: 'Makoti',
         popularity: 0,
         artists: [
@@ -332,7 +333,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea2562f1a'),
+        _id: ObjectId('6ae75793133b1a6ea257edaa'),
         track_name: 'Makoti',
         popularity: 0,
         artists: [
@@ -343,7 +344,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea2562f4b'),
+        _id: ObjectId('6ae75793133b1a6ea257eddb'),
         track_name: 'Makoti',
         popularity: 0,
         artists: [
@@ -361,7 +362,7 @@
     outlier_threshold: 183.1,
     outlier_tracks: [
       {
-        _id: ObjectId('6ae75099133b1a6ea2563618'),
+        _id: ObjectId('6ae75793133b1a6ea257f4a8'),
         track_name: 'Laberintos',
         popularity: 46,
         artists: [
@@ -372,7 +373,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea25634e3'),
+        _id: ObjectId('6ae75793133b1a6ea257f373'),
         track_name: 'Ella Debe Estar Tan Linda',
         popularity: 48,
         artists: [
@@ -383,7 +384,7 @@
         }
       },
       {
-        _id: ObjectId('6ae75099133b1a6ea25632ff'),
+        _id: ObjectId('6ae75793133b1a6ea257f18f'),
         track_name: "It's The End Of The World As We Know It (And I Feel Fine)",
         popularity: 0,
         artists: [
@@ -428,20 +429,6 @@
       loudness: -28.46,
       speechiness: 0,
       instrumentalness: 1
-    }
-  },
-  {
-    track_name: 'Show Me How',
-    popularity: 79,
-    explicit: false,
-    track_genre: 'indie-pop',
-    artists: [
-      'Men I Trust'
-    ],
-    audio_features: {
-      loudness: -11.997,
-      speechiness: 0.0415,
-      instrumentalness: 0.534
     }
   },
   {
@@ -491,6 +478,34 @@
     }
   },
   {
+    track_name: 'Show Me How',
+    popularity: 79,
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'Men I Trust'
+    ],
+    audio_features: {
+      loudness: -11.997,
+      speechiness: 0.0415,
+      instrumentalness: 0.534
+    }
+  },
+  {
+    track_name: 'K.',
+    popularity: 78,
+    explicit: false,
+    track_genre: 'ambient',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
     track_name: 'K.',
     popularity: 78,
     explicit: false,
@@ -519,24 +534,10 @@
     }
   },
   {
-    track_name: 'K.',
-    popularity: 78,
-    explicit: false,
-    track_genre: 'ambient',
-    artists: [
-      'Cigarettes After Sex'
-    ],
-    audio_features: {
-      loudness: -10.261,
-      speechiness: 0.0265,
-      instrumentalness: 0.846
-    }
-  },
-  {
     track_name: 'i was all over her',
     popularity: 77,
     explicit: false,
-    track_genre: 'indie-pop',
+    track_genre: 'emo',
     artists: [
       'salvia palth'
     ],

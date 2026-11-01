@@ -22,7 +22,7 @@ const partyTracks = db.tracks
     "audio_features.danceability": 1,
     "audio_features.energy": 1
   })
-  .sort({ popularity: -1 })
+  .sort({ popularity: -1, track_name: 1, track_genre: 1 })
   .limit(10)
   .toArray();
 
@@ -152,7 +152,7 @@ const workTracks = db.tracks
     "audio_features.speechiness": 1,
     "audio_features.instrumentalness": 1
   })
-  .sort({ popularity: -1 })
+  .sort({ popularity: -1, track_name: 1, track_genre: 1 })
   .limit(10)
   .toArray();
 
