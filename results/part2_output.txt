@@ -1,0 +1,549 @@
+Завдання 1. Треки для вечірки
+Знайдено треків: 7311
+Топ-10 за популярністю:
+[
+  {
+    track_name: 'Calm Down (with Selena Gomez)',
+    popularity: 92,
+    track_genre: 'pop',
+    artists: [
+      'Rema',
+      'Selena Gomez'
+    ],
+    audio_features: {
+      danceability: 0.801,
+      energy: 0.806
+    },
+    duration_sec: 239.3
+  },
+  {
+    track_name: 'LOKERA',
+    popularity: 91,
+    track_genre: 'latin',
+    artists: [
+      'Rauw Alejandro',
+      'Lyanno',
+      'Brray'
+    ],
+    audio_features: {
+      danceability: 0.834,
+      energy: 0.828
+    },
+    duration_sec: 195.3
+  },
+  {
+    track_name: 'LOKERA',
+    popularity: 91,
+    track_genre: 'latino',
+    artists: [
+      'Rauw Alejandro',
+      'Lyanno',
+      'Brray'
+    ],
+    audio_features: {
+      danceability: 0.834,
+      energy: 0.828
+    },
+    duration_sec: 195.3
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'reggaeton',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'reggae',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'Party',
+    popularity: 90,
+    track_genre: 'latino',
+    artists: [
+      'Bad Bunny',
+      'Rauw Alejandro'
+    ],
+    audio_features: {
+      danceability: 0.829,
+      energy: 0.799
+    },
+    duration_sec: 227.6
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'house',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  },
+  {
+    track_name: 'About Damn Time',
+    popularity: 89,
+    track_genre: 'hip-hop',
+    artists: [
+      'Lizzo'
+    ],
+    audio_features: {
+      danceability: 0.836,
+      energy: 0.743
+    },
+    duration_sec: 191.8
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'dance',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  },
+  {
+    track_name: 'One Kiss (with Dua Lipa)',
+    popularity: 89,
+    track_genre: 'pop',
+    artists: [
+      'Calvin Harris',
+      'Dua Lipa'
+    ],
+    audio_features: {
+      danceability: 0.791,
+      energy: 0.862
+    },
+    duration_sec: 214.8
+  }
+]
+
+Завдання 2. Топ-20 артистів, у яких усі треки популярні
+[
+  {
+    track_count: 3,
+    artist: 'Harry Styles',
+    min_popularity: 89,
+    avg_popularity: 92
+  },
+  {
+    track_count: 5,
+    artist: 'Olivia Rodrigo',
+    min_popularity: 86,
+    avg_popularity: 87.4
+  },
+  {
+    track_count: 3,
+    artist: 'IVE',
+    min_popularity: 79,
+    avg_popularity: 84
+  },
+  {
+    track_count: 3,
+    artist: 'Morgan Wallen',
+    min_popularity: 81,
+    avg_popularity: 83.3
+  },
+  {
+    track_count: 5,
+    artist: 'One Direction',
+    min_popularity: 80,
+    avg_popularity: 83
+  },
+  {
+    track_count: 8,
+    artist: 'Lil Nas X',
+    min_popularity: 77,
+    avg_popularity: 82.8
+  },
+  {
+    track_count: 5,
+    artist: 'Måneskin',
+    min_popularity: 76,
+    avg_popularity: 82.6
+  },
+  {
+    track_count: 3,
+    artist: 'TV Girl',
+    min_popularity: 80,
+    avg_popularity: 81.7
+  },
+  {
+    track_count: 6,
+    artist: 'Mora',
+    min_popularity: 69,
+    avg_popularity: 80.3
+  },
+  {
+    track_count: 3,
+    artist: 'Luke Combs',
+    min_popularity: 79,
+    avg_popularity: 80.3
+  },
+  {
+    track_count: 3,
+    artist: 'Maroon 5',
+    min_popularity: 70,
+    avg_popularity: 79.7
+  },
+  {
+    track_count: 6,
+    artist: 'Mitski',
+    min_popularity: 75,
+    avg_popularity: 78.3
+  },
+  {
+    track_count: 3,
+    artist: 'Mark Ronson',
+    min_popularity: 74,
+    avg_popularity: 78.3
+  },
+  {
+    track_count: 4,
+    artist: 'LE SSERAFIM',
+    min_popularity: 75,
+    avg_popularity: 78
+  },
+  {
+    track_count: 3,
+    artist: 'Beach Bunny',
+    min_popularity: 73,
+    avg_popularity: 78
+  },
+  {
+    track_count: 5,
+    artist: 'Shubh',
+    min_popularity: 69,
+    avg_popularity: 77.8
+  },
+  {
+    track_count: 4,
+    artist: 'SZA',
+    min_popularity: 65,
+    avg_popularity: 77.8
+  },
+  {
+    track_count: 3,
+    artist: 'Jhay Cortez',
+    min_popularity: 75,
+    avg_popularity: 77.7
+  },
+  {
+    track_count: 3,
+    artist: 'Mother Mother',
+    min_popularity: 76,
+    avg_popularity: 77.3
+  },
+  {
+    track_count: 4,
+    artist: 'Tiago PZK',
+    min_popularity: 72,
+    avg_popularity: 77
+  }
+]
+
+Завдання 3. Нетипові треки за темпом
+Жанрів із нетиповими треками: 112
+Усього нетипових треків: 3506
+Перші 3 жанри (по 3 треки з найвищим темпом):
+[
+  {
+    avg_tempo: 119,
+    genre: 'acoustic',
+    outlier_threshold: 178.5,
+    outlier_tracks: [
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562c5b'),
+        track_name: 'Fast Car',
+        popularity: 61,
+        artists: [
+          'Boyce Avenue',
+          'Kina Grannis'
+        ],
+        audio_features: {
+          tempo: 204.961
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562ce2'),
+        track_name: 'Running Up That Hill (A Deal With God) - Acoustic',
+        popularity: 51,
+        artists: [
+          'Jonah Baker'
+        ],
+        audio_features: {
+          tempo: 203.816
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562d0c'),
+        track_name: 'Wanted Man',
+        popularity: 59,
+        artists: [
+          'Mat Kearney'
+        ],
+        audio_features: {
+          tempo: 203.651
+        }
+      }
+    ]
+  },
+  {
+    avg_tempo: 119.2,
+    genre: 'afrobeat',
+    outlier_threshold: 171.8,
+    outlier_tracks: [
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562f53'),
+        track_name: 'Makoti',
+        popularity: 0,
+        artists: [
+          'Hugh Masekela'
+        ],
+        audio_features: {
+          tempo: 220.081
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562f1a'),
+        track_name: 'Makoti',
+        popularity: 0,
+        artists: [
+          'Hugh Masekela'
+        ],
+        audio_features: {
+          tempo: 220.081
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea2562f4b'),
+        track_name: 'Makoti',
+        popularity: 0,
+        artists: [
+          'Hugh Masekela'
+        ],
+        audio_features: {
+          tempo: 220.081
+        }
+      }
+    ]
+  },
+  {
+    avg_tempo: 124.6,
+    genre: 'alt-rock',
+    outlier_threshold: 183.1,
+    outlier_tracks: [
+      {
+        _id: ObjectId('6ae75099133b1a6ea2563618'),
+        track_name: 'Laberintos',
+        popularity: 46,
+        artists: [
+          'División Minúscula'
+        ],
+        audio_features: {
+          tempo: 215.513
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea25634e3'),
+        track_name: 'Ella Debe Estar Tan Linda',
+        popularity: 48,
+        artists: [
+          'Patricio Rey y sus Redonditos de Ricota'
+        ],
+        audio_features: {
+          tempo: 205.911
+        }
+      },
+      {
+        _id: ObjectId('6ae75099133b1a6ea25632ff'),
+        track_name: "It's The End Of The World As We Know It (And I Feel Fine)",
+        popularity: 0,
+        artists: [
+          'R.E.M.'
+        ],
+        audio_features: {
+          tempo: 205.528
+        }
+      }
+    ]
+  }
+]
+
+Завдання 4. Треки для фонової роботи
+Знайдено треків: 9324
+Топ-10 за популярністю:
+[
+  {
+    track_name: 'everything i wanted',
+    popularity: 86,
+    explicit: false,
+    track_genre: 'electro',
+    artists: [
+      'Billie Eilish'
+    ],
+    audio_features: {
+      loudness: -14.454,
+      speechiness: 0.0994,
+      instrumentalness: 0.657
+    }
+  },
+  {
+    track_name: 'Clean White Noise - Loopable with no fade',
+    popularity: 85,
+    explicit: false,
+    track_genre: 'sleep',
+    artists: [
+      'White Noise Baby Sleep',
+      'White Noise for Babies'
+    ],
+    audio_features: {
+      loudness: -28.46,
+      speechiness: 0,
+      instrumentalness: 1
+    }
+  },
+  {
+    track_name: 'Show Me How',
+    popularity: 79,
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'Men I Trust'
+    ],
+    audio_features: {
+      loudness: -11.997,
+      speechiness: 0.0415,
+      instrumentalness: 0.534
+    }
+  },
+  {
+    track_name: 'Experience',
+    popularity: 79,
+    explicit: false,
+    track_genre: 'ambient',
+    artists: [
+      'Ludovico Einaudi',
+      'Daniel Hope',
+      'I Virtuosi Italiani'
+    ],
+    audio_features: {
+      loudness: -10.634,
+      speechiness: 0.0376,
+      instrumentalness: 0.961
+    }
+  },
+  {
+    track_name: 'Experience',
+    popularity: 79,
+    explicit: false,
+    track_genre: 'classical',
+    artists: [
+      'Ludovico Einaudi',
+      'Daniel Hope',
+      'I Virtuosi Italiani'
+    ],
+    audio_features: {
+      loudness: -10.634,
+      speechiness: 0.0376,
+      instrumentalness: 0.961
+    }
+  },
+  {
+    track_name: 'Show Me How',
+    popularity: 79,
+    explicit: false,
+    track_genre: 'indie',
+    artists: [
+      'Men I Trust'
+    ],
+    audio_features: {
+      loudness: -11.997,
+      speechiness: 0.0415,
+      instrumentalness: 0.534
+    }
+  },
+  {
+    track_name: 'K.',
+    popularity: 78,
+    explicit: false,
+    track_genre: 'indie',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'K.',
+    popularity: 78,
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'K.',
+    popularity: 78,
+    explicit: false,
+    track_genre: 'ambient',
+    artists: [
+      'Cigarettes After Sex'
+    ],
+    audio_features: {
+      loudness: -10.261,
+      speechiness: 0.0265,
+      instrumentalness: 0.846
+    }
+  },
+  {
+    track_name: 'i was all over her',
+    popularity: 77,
+    explicit: false,
+    track_genre: 'indie-pop',
+    artists: [
+      'salvia palth'
+    ],
+    audio_features: {
+      loudness: -12.835,
+      speechiness: 0.0292,
+      instrumentalness: 0.853
+    }
+  }
+]
